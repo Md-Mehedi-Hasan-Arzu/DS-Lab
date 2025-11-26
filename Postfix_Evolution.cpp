@@ -46,9 +46,9 @@ int main()
         {
             int ch = stoi(x);
             push(ch);
-            cout << ch << "    ";
         }
 
+        cout << x << "    ";
         for(int i=0; i<=a; i++)     // printing stack
             cout << arr[i] <<' ';
         cout << endl;
